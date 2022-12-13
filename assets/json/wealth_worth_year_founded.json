@@ -1,12 +1,13 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
     "url": "https://raw.githubusercontent.com/Donlapun/Donlapun.github.io/main/billionaires.csv"
   },
   "hconcat": [
     {
+      "title": "Line Graph of the Wealth Worth by Year",
       "params": [{"name": "brush", "select": "interval"}],
       "mark": {"type": "line", "color": "black"},
+      "width": 700,
       "encoding": {
         "x": {
           "field": "company_founded",
@@ -18,6 +19,7 @@
       }
     },
     {
+      "title": "Histogram of Year Company Founded",
       "transform": [{"filter": {"param": "brush"}}],
       "mark": "bar",
       "encoding": {
