@@ -82,13 +82,5 @@ Published by Statista Research Department, & 22, S. (2022, September 22). Billio
 #### Scatter Plot
 World Population Review. *GDP per Capita by Country 2022*. <https://worldpopulationreview.com/country-rankings/gdp-per-capita-by-country>.Accessed 2 Dec. 2022.
 
-<!-- these are written in a combo of html and liquid 
 
-<div class="left">
-{% include elements/button.html link="https://github.com/vega/vega/blob/main/docs/data/cars.json" text="The Data" %}
-</div>
-
-<div class="right">
-{% include elements/button.html link="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb" text="The Analysis" %}
-</div> -->
 
